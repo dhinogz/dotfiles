@@ -1,0 +1,20 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	l = "!. ~/.githelpers && pretty_git_log"
+
+[pull]
+	rebase = true
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	email = davidhinojosagzz@gmail.com
+	name = dhinogz
+[init]
+	defaultBranch = main
