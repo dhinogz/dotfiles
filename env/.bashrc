@@ -1,10 +1,12 @@
 # Env Variables
 export ENV="dev"
 
+# change config home
+export XDG_CONFIG_HOME=$HOME/.config
+
 # Nvim default editor
 export EDITOR="nvim"
 export SUDO_EDITOR="$EDITOR"
-
 # Prompt config
 ## Enable colors
 force_color_prompt=yes
