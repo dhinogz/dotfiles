@@ -56,3 +56,4 @@ done
 log "------------------ dev-env ------------------"
 
 copy_dir env/.config $XDG_CONFIG_HOME
+copy_file env/.bashrc $HOME
