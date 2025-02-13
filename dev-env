@@ -55,5 +55,6 @@ done
 
 log "------------------ dev-env ------------------"
 
+copy_file $XDG_CONFIG_HOME/nvim/lazy-lock.json env/.config/nvim
 copy_dir env/.config $XDG_CONFIG_HOME
 copy_file env/.bashrc $HOME
