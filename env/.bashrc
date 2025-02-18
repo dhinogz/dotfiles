@@ -56,6 +56,7 @@ alias b='cd ~/blog && n ./content/_index.md'
 alias v='source .venv/bin/activate'
 alias nv='python -m venv .venv'
 alias dv='deactivate'
+alias tmplupd='go install github.com/a-h/templ/cmd/templ@latest'
 
 ## File system
 alias ls='eza -lh --group-directories-first --icons'
