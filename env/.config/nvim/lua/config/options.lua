@@ -10,7 +10,7 @@ vim.opt.expandtab = true
 
 vim.opt.cursorline = false
 
-vim.opt.scrolloff = 10
+vim.opt.scrolloff = 999
 
 vim.opt.swapfile = false
 vim.opt.backup = false
