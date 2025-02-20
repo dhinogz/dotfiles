@@ -13,7 +13,7 @@ opt.expandtab = true
 
 opt.cursorline = false
 
-opt.scrolloff = 999
+opt.scrolloff = 10
 
 opt.swapfile = false
 opt.backup = false
