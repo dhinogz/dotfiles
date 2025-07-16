@@ -43,6 +43,9 @@ copy_file() {
 
 # Script starts here
 
+# Fixed mac issue where env var doesn't exist
+XDG_CONFIG_HOME="${XDG_CONFIG_HOME:-$HOME/.config}"
+
 script_dir=$(cd $(dirname "${BASH_SOURCE[0]}") && pwd)
 dry="0"
 
@@ -57,4 +60,4 @@ log "------------------ dev-env ------------------"
 
 copy_file $XDG_CONFIG_HOME/nvim/lazy-lock.json env/.config/nvim
 copy_dir env/.config $XDG_CONFIG_HOME
-copy_file env/.bashrc $HOME
+
